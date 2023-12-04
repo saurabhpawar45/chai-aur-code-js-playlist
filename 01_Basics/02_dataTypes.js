@@ -5,4 +5,4 @@ console.log(age);
 
 console.log(typeof null);
 console.log(typeof undefined);
-s
+
