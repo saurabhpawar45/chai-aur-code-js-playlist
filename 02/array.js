@@ -1,4 +1,5 @@
 const myarr = [2,3,5,4,3,2]
+
 // myarr.push(25,54)
 // myarr.pop()
 // console.log(myarr.shift(3));
@@ -17,7 +18,16 @@ const myarr = [2,3,5,4,3,2]
 // console.log(newarr)
 // console.log('b', myarr)
 
-console.log('a', myarr)
-const newarr = myarr.splice(1,8)
-console.log(newarr)
-console.log('b', myarr)
+// console.log('a', myarr)
+// const newarr = myarr.splice(1,8)
+// console.log(newarr)
+// console.log('b', myarr)
+
+
+//spread operator
+
+const myarr2 = [10,24,64,54] 
+
+const newarr = [...myarr,...myarr2]
+
+console.log(newarr);
